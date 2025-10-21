@@ -77,8 +77,10 @@
               pip
               python-lsp-server
 
-              # django
+              # django, htmx, blah, blah
               django
+              pkgs.htmx-lsp2
+              django-htmx
 
               # Add whatever else you'd like here.
               # pkgs.basedpyright
@@ -89,7 +91,6 @@
               pkgs.ruff
               # or
               # python.pkgs.ruff
-
             ];
           };
         }
